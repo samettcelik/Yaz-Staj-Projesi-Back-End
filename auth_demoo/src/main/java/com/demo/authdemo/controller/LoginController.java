@@ -27,7 +27,7 @@ public class LoginController {
         }
     }
 
-    @GetMapping
+    @GetMapping("/users")
     public List<User> getAllUsers() {
         return userService.getAllUsers();
     }
